@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.oop.practicearea_2220972.complexnooperation_night_01.ComplexNoOperationSceneController">
+   <children>
+      <Label layoutX="56.0" layoutY="45.0" text="Enter Real Value Of 1st Complex Number:" />
+      <Label layoutX="53.0" layoutY="78.0" text="Enter Img Value Of 1st Complex Number:" />
+      <TextField fx:id="realOf1stCnoTextField" layoutX="290.0" layoutY="41.0" />
+      <TextField fx:id="imgOf1stCnoTextField" layoutX="290.0" layoutY="74.0" />
+      <Label layoutX="54.0" layoutY="149.0" text="Enter Img Value Of 2nd Complex Number:" />
+      <Label layoutX="53.0" layoutY="112.0" text="Enter Real Value Of 2nd Complex Number:" />
+      <TextField fx:id="realOf2ndCnoTextField" layoutX="290.0" layoutY="108.0" />
+      <TextField fx:id="imgOf2ndCnoTextField" layoutX="290.0" layoutY="145.0" />
+      <Button layoutX="53.0" layoutY="214.0" mnemonicParsing="false" onAction="#addComplexNosbuttonMoAction" prefHeight="25.0" prefWidth="219.0" text="Add Complex Numbers" />
+      <Button layoutX="290.0" layoutY="214.0" mnemonicParsing="false" onMouseClicked="#addComplexNosbuttonOnMouseClicked" prefHeight="25.0" prefWidth="149.0" text="Subtract Complex Numbers" />
+      <Label fx:id="resultLabel" layoutX="52.0" layoutY="281.0" prefHeight="17.0" prefWidth="384.0" style="-fx-background-color: green;" text="Result:" />
+   </children>
+</AnchorPane>
